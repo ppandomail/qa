@@ -1,8 +1,10 @@
-# Testing
+# Introducción
 
 ## ¿Conoces las diferencia entre **verificación** y **validación**?
 
 ![Diferencia entre verificación y validación](img/verificacion-validacion.jpg)
+
+![Testing implica V&V](img/verificacion-validacion2.jpg)
 
 ## ¿Cuál es la **diferencia** entre **Calidad** y **Testing**?
 
@@ -11,6 +13,12 @@
 ## ¿Qué son los **atributos** de calidad?
 
 ![Atributos de Calidad](img/atributos-calidad.jpg)
+
+![Atributos de Calidad](img/atributos-calidad2.JPG)
+
+## ¿Sabes medir el **retorno de inversión** de **QA** en un proyecto?
+
+![Retorno de Inversión](img/retorno-inversion.jpg)
 
 ## ¿Qué **tareas** se hacen en **QA** y cuales en **Testing**?
 
@@ -28,10 +36,16 @@
 
 ![Verdades absolutas del Testing](img/verdades-absolutas.jpg)
 
-## ¿Cómo puede **participar** el Tester a lo largo de todo el **proceso**?
+![Siete principios de las pruebas](img/principios.jpg)
 
-![Participación del Tester](img/participacion-tester.jpg)
+## ¿Qué dice la **paradoja del pesticida** sobre nuestras pruebas?
 
-## ¿Cómo **debe ser** un **tester** (actitudes) en su día a día?
+![Paradoja del pesticida](img/paradoja-pesticida.jpg)
 
-![Actitudes del Tester](img/actitudes-tester.jpg)
+## ¿Conoces estas **curiosidades del Testing**?
+
+![Curiosidades del Testing](img/curiosidades.jpg)
+
+## ¿Conoces la **historia del Testing**?
+
+![Historia del Testing](img/historia.jpg)
