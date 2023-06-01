@@ -4,12 +4,12 @@
 
 ![Definición de automatización](img/auto-definicion.jpg)
 
-![Definición de automatización](img/auto-definicion2.jpg)
+![Definición de automatización](img/auto-definicion2.JPG)
 
 ## ¿Para qué hacer pruebas de automatización?
 
-![Para que automatizar](img/auto-paraque1.jpg)
-![Para que automatizar](img/auto-paraque2.jpg)
+![Para que automatizar](img/auto-paraque1.JPG)
+![Para que automatizar](img/auto-paraque2.JPG)
 
 ## ¿Conoces los **objetivos** principales de la **automatización**?
 
@@ -25,7 +25,7 @@
 
 ![Pirámide de automatización](img/auto-piramide.jpg)
 
-![Pirámide de automatización](img/auto-piramide2.jpg)
+![Pirámide de automatización](img/auto-piramide2.JPG)
 
 ## ¿De quién es la responsabilidad de automatizar en un equipo?
 
@@ -41,7 +41,7 @@
 
 ## ¿Cuáles son los skills?
 
-![Test Automation Skill Tree](img/auto-skills.jpg)
+![Test Automation Skill Tree](img/auto-skills.JPG)
 
 ## Framework de automatización
 
