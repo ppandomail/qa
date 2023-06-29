@@ -72,3 +72,19 @@
 ## Código **ejemplo** de Tests Automatizados
 
 ![Código ejemplo de Tests Automatizados](img/auto-ejemplo.jpg)
+
+## ¿Qué son los **patrones de automatización** y cuáles son?
+
+![Patrones de automatización](img/auto-patrones.jpg)
+
+### ¿Qué es POM?
+
+![POM](img/auto-pom.jpg)
+
+![POM](img/auto-pom2.jpg)
+
+![POM](img/auto-pom3.jpg)
+
+### ¿Qué es Screenplay?
+
+![Screenplay](img/auto-screenplay.jpg)

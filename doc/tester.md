@@ -19,3 +19,7 @@
 ## ¿Cómo **motivar** e **implicar** a tu equipo?
 
 ![Motivar e implicar a tu equipo](img/motivar-implicar.jpg)
+
+## ¿Cuáles son las principales tareas que realizan los testers en las organizaciones además de las pruebas?
+
+![Tareas testers](img/tareas-testers.jpg)
