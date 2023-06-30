@@ -16,47 +16,51 @@
 * Real time reloads: cada vez que se hacen cambios se van ejecutando los tests.
 * Espera automática: Cypress espera automáticamente los comandos y assertions antes de continuar. Espera 4 segundos antes de agotar el tiempo para encontrar un elemento DOM. Cuando Cypress detecta un elemento page transition event, aumenta automáticamente el tiempo de espera a 60 segundos para el PAGE LOADevento único.
 
+## Ventajas
+
+![Ventajas Cypress](img/cypress-ventajas.jpg)
+
 ## Instalación
 
 1. Instalar Nodejs desde [link de Nodejs](https://nodejs.org/es/) o
 
-```sh
-$sudo snap install node --classic
-```
+    ```sh
+    $sudo snap install node --classic
+    ```
 
 2. Setear las siguientes variables en el archivo de configuración de npm situado en /home/uxxxx/.npmrc con la siguiente información:
 
-```plain
-proxy=http://wwwafip:80/
-https-proxy=http://wwwafip:80/
-http-proxy=http://wwwafip:80/
-strict-ssl=false
-@afip:registry=https://nexus.cloudint.afip.gob.ar/nexus/repository/npm-proxy/
-registry=https://registry.npmjs.org/
-noproxy="https://nexus.cloudint.afip.gob.ar/nexus/repository/npm-proxy/, nexus.cloudint.afip.gob.ar, .afip.gob.ar, https://nexus.cloudint.afip.gob.ar/nexus"
-always-auth=true
-```
+    ```plain
+    proxy=http://wwwafip:80/
+    https-proxy=http://wwwafip:80/
+    http-proxy=http://wwwafip:80/
+    strict-ssl=false
+    @afip:registry=https://nexus.cloudint.afip.gob.ar/nexus/repository/npm-proxy/
+    registry=https://registry.npmjs.org/
+    noproxy="https://nexus.cloudint.afip.gob.ar/nexus/repository/npm-proxy/, nexus.cloudint.afip.gob.ar, .afip.gob.ar, https://nexus.cloudint.afip.gob.ar/nexus"
+    always-auth=true
+    ```
 
 3. Descargarse desde [](https://www.afip.gob.ar/crts/root2.crt) el certificado correspondiente y generar una variable de entorno en el sistema operativo denominada node_extra_ca_certs donde el valor es la ruta donde se encuentra el archivo previamente descargado.
 4. Agregar a .bashrc o .zshrc la siguiente línea: export NODE_EXTRA_CA_CERTS="/home/u45812/root2.crt"
 5. Crear carpeta del proyecto.
 6. Generar el archivo package.json para declarar las dependencias y configuraciones del proyecto:
 
-```sh
-$npm init -y
-```
+    ```sh
+    $npm init -y
+    ```
 
 7. Instalación de Cypress
 
-```sh
-$npm i cypress
-```
+    ```sh
+    $npm i cypress
+    ```
 
 8. Abrir Cypress:
 
-```sh
-$npx cypress open
-```
+    ```sh
+    $npx cypress open
+    ```
 
 ## Archivo package.json
 
@@ -82,7 +86,6 @@ $npx cypress open
 $npm run cypress:open
 ```
 
-
 ## Estructura de archivos
 
 * Cypress recomienda utilizar la estructura estandar que posee y se auto-genera al instalar e inicializar por primera vez Cypress. La misma posee la siguiente estructura:
@@ -107,6 +110,8 @@ $npm run cypress:open
   2. Generar un testsuite para todos los tests. Este marco se puede realizar utilizando context() o describe() (son sinónimos entre si, viene de Moka)
   3. Para cada test individual, nos ofrece la posibilidad de utilizar specify() o it() (son sinónimos entre sí, viene de Moka)
   4. expect viene de Chai
+
+![Ejemplo Cypress](img/cypress-ejemplo.jpg)
 
 ```js
 /* global cy */
@@ -174,7 +179,6 @@ it.only('login fails with wrong password', () -> {
 })
 ...
 ```
-
 
 ## Assertions
 
@@ -255,3 +259,5 @@ Cypress.Commands.add('navegar', (url) => {
     cy.visit(url)
 })
 ```
+
+![Comandos Cypress](img/cypress-comando.jpg)
