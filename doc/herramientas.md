@@ -9,6 +9,7 @@
   * Cypress.io
   * Katalon Studio
   * Robot Framework
+  * TestCafe
 
 * **Mobile**
   * Appium
@@ -19,10 +20,11 @@
   * TestingBot
   * TestComplete
 
-* **Performance**
+* **Load/Stress Test**
   * Apache JMeter
   * Nightwatch.js
-  * Locus
+  * Locust.io
+  * Artillery
 
 * **Web services**
   * Postman
@@ -52,6 +54,13 @@
   * Apigee
   * Unified Functional Testing
 
+## Herramientas para colaborar
+
+* Git: siempre el código subido a un repo de código
+* Mensajeria
+* Wiki, todo documentado!
+* Jenkins: servidor de automatización para lanzar las tareas y notificar o consultar los resultados.
+
 ## Frameworks para tests unitarios
 
 ![Unit Test Frameworks for Test Automation](img/unit-test-frameworks.JPG)
@@ -70,14 +79,12 @@
 * Python
 * JavaScript
 
+## IDEs
+
+* Visual Studio Code
+* Pycharm
+* Eclipse
+
 ## Pirámide de Test Automation
 
 ![Pirámide de Test Automation](img/piramide-test-automation.JPG)
-
-## Selenium
-
-## Jenkins
-
-![Jenkins](img/jenkins-1.jpg)
-
-![Jenkins](img/jenkins-2.jpg)

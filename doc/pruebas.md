@@ -2,6 +2,8 @@
 
 ## ¿Qué son las pruebas de software?
 
+* Es la validación y verificación de un sistema con intención de encontrar errores, mediante el uso de procesos, procedimientos, técnicas y herramientas.
+
 ![Pruebas de software](img/pruebas-definicion.jpg)
 
 ## ¿Cómo se clasifican las **pruebas de software**?
