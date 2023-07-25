@@ -3,7 +3,25 @@
 * Es un framework de pruebas de software para aplicaciones basadas en la web.
 * Selenium WebDriver: maneja un navegador de forma nativa, como lo haría un usuario, ya sea localmente o en una máquina remota usando el servidor Selenium.
 
+![Selenium definición](img/selenium-definicion.jpg)
+
+![Selenium nombre](img/selenium-nombre.JPG)
+
+## Razones para usar Selenium
+
+![Selenium razones](img/selenium-razones.jpg)
+
+## Multilenguaje en Selenium
+
+![Multilenguaje en Selenium](img/selenium-multilenguaje.jpg)
+
+## Arquitectura de Selenium WebDriver
+
+![Arquitectura de Selenium WebDriver](img/selenium-arq.jpg)
+
 ## Estrategias de selección de elementos web
+
+![Selenium localizadores](img/selenium-localizadores.jpg)
 
 * Ejemplo input:
 
@@ -65,6 +83,14 @@
     driver.find_element_by_partial_link_text("¿Olvidaste")
     ```
 
+![Selenium ejemplo](img/selenium-ejemplo.JPG)
+
+![Selenium ejemplo](img/selenium-ejemplo2.JPG)
+
+## Elementos dinámicos en Selenium
+
+![Elementos dinámicos en Selenium](img/selenium-elementos-dinamicos.jpg)
+
 ## Waits
 
 * time.sleep(n)
@@ -112,3 +138,27 @@
     wait = WebDriverWait(driver, timeout=10, poll_frequency=1, ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException])
     wait.until(ec.element_to_be_clickable(ele)).click()
     ```
+
+## Localizadores relativos
+
+![Selenium localizadores relativos](img/selenium-localizadores-relativos.jpg)
+
+![Selenium ejemplo localizadores relativos](img/selenium-ejemplo-loc-relativos.jpg)
+
+## WebElement
+
+![WebElement](img/selenium-webelement.jpg)
+
+## Data-Driven Testing en Selenium
+
+![Selenium DDT](img/selenium-ddt.jpg)
+
+## Buenas prácticas en Selenium
+
+![Buenas prácticas en Selenium](img/selenium-buenas-practicas.jpg)
+
+## XPath
+
+![xpath](img/xpath-1.jpg)
+
+![xpath](img/xpath-2.JPG)
