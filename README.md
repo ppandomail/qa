@@ -13,3 +13,4 @@
     * [SoapUI](doc/soapui.md)
     * [JMeter](doc/jmeter.md)
     * [Jenkins](doc/jenkins.md)
+    * [Docker](doc/docker.md)
