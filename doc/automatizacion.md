@@ -72,6 +72,31 @@
 
 ![Pirámide de automatización](img/auto-piramide2.JPG)
 
+* **UAT (User Acceptance Testing)**:
+  * Pruebas que se hacen viendo la pantalla.
+  * Las realiza el cliente junto con BA (Business Analyst) / PO (Product Owner).
+* **UI (User Interface)** (x100):
+  * Pruebas en el frontend.
+  * Difíciles de mantener y más frágiles.
+  * Las realiza el QA Team / TAE
+* **Service/Integration** (x1000):
+  * APIs traen información. Prueba si la BD funciona bien.
+  * Las realiza el QA Team / TAE / DEV
+  * Verificar que 2 componentes funcionen bien juntos, convivan de manera efectiva
+  * Requieren mocks (simulación de módulos)
+* **Unit test** (x10000):
+  * Pruebas en el backend.
+  * Las hace DEV porque sabe su código. Algunas veces TAE.
+  * Es la validación de un código o módulo
+  * Java (JUnit), Python (unittest, pytest), JS (Jazmine)
+  
+* Arriba: ejecución lenta y mas costosas
+* Abajo: ejecución rápida y menos costosas
+* Un SW debe ser probado en diferentes niveles (de la base hasta el tope)
+* Entre más arriba, el número de pruebas se reduce.
+* Se trata de prevenir defectos, NO en buscarlos.
+* Detección temprana: + rápido de corregir (+ barato)
+
 ## ¿De quién es la responsabilidad de automatizar en un equipo?
 
 ![Responsabilidad de automatizar](img/auto-equipo.jpg)
