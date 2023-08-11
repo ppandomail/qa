@@ -1,4 +1,14 @@
-# API REST Testing
+# API
+
+## Concepto
+
+* API (Application Programming Interface):
+* Es la acción de integración REQUEST (Solicitud a la Web)- RESPONSE (la respuesta).
+* Conjunto de consultas (preguntas), comandos (ejecuciones) y eventos.
+* Permite que 2 aplicaciones interactuen entre sí, sin la intervención del usuario.
+* Código que ayuda a 2 software distintos a comunicarse e intercambiar datos entre sí.
+
+## Tests
 
 * Los Testers usan las API de un SUT, a través de una herramienta para su manipulación (ej. Postman), con el fin de validar las "RESPUESTAS" del Servicio Web de las "Solicitudes" a nivel de "INTEGRACIÓN" (Caja Blanca), entre la UI y el Backend (nuestra DB u otras DB de otros SUT). Esto es posible gracias a unos llamados (cuyo lenguaje código pueden ser JSON o XML u otros).
 
@@ -27,12 +37,6 @@
 
   ![HTTP Códigos de estados](img/api-codigos-estados.JPG)
 
-* API (Application Programming Interface):
-  * Es la acción de integración REQUEST (Solicitud a la Web)- RESPONSE (la respuesta).
-  * Conjunto de consultas (preguntas), comandos (ejecuciones) y eventos.
-  * Permite que 2 aplicaciones interactuen entre sí, sin la intervención del usuario.
-  * Código que ayuda a 2 software distintos a comunicarse e intercambiar datos entre sí.
-
 * Endpoint: es la "habitación" del sistema. Guardan recursos.
 
 * URL (Uniform Resource Locator): es la llave para abrir la puerta de la "habitación". Es el localizador del recurso
@@ -40,10 +44,56 @@
 * URN (Uniform Resource Name): es el nombre del recurso.
 
 * XML (eXtensible Markup Language): es un lenguaje de marcado extensible.
-* JSON (JavaScript Object Notation): es un lenguaje de mensajeria (de datos). Formato de mensajes de API.
+
+## JSON
+
+* JavaScript Object Notation.
+* Es un lenguaje de mensajeria (de datos). Formato de mensajes de API.
+* Ayuda a transmitir datos entre un servidor y aplicaciones web.
+* Es un formato de archivo que se utiliza para almacenar información de manera organizada y de fácil acceso.
+* Proporciona soporta para todos los browsers.
+* Fácil de leer y escribir.
+* Sintaxis sencilla: pares nombre/valor
+* Compatible con Javascript y tecnologías backend
+* Puede tener:
+  * [array] : lista de valores. Puede contener varios objetos.
+  * {objeto} : tiene propiedades (clave-valor). Puede contener varios arrays.
 
 ![JSON](img/api-json.JPG)
 ![Ejemplo JSON](img/api-json-ejemplo.JPG)
+
+### Ejemplos JSON
+
+```json
+{
+  "book": [
+    {
+      "id":"444",
+      "language":"C"
+    },
+    {
+      "id":"555",
+      "language":"Python"
+    }
+  ]
+}
+```
+
+```json
+{
+  "firstName": "Pablo",
+  "lastName": "Pandolfo",
+  "loginCount": 4,
+  "isWriter": true,
+  "worksWith": ["Selenium", "Cypress"],
+  "studies": [
+    {
+        "name": "System engineer",
+        "type": "university"
+    }
+  ]
+}
+```
 
 ## Ejemplos de pruebas
 
