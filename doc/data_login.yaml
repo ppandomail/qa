@@ -1,0 +1,3 @@
+username: 'tomsmith'
+password: 'SuperSecretPassword!'
+expected: 'Secure Area'
