@@ -1,11 +1,10 @@
 import pytest
 import requests
 
-def test_geo_ref_ubicacion():
-    params = {
-    'lat': '-27.2741',
-    'lon': '-66.7529'
-    }
-    response = requests.get('https://apis.datos.gob.ar/georef/api/ubicacion', params=params)
+def test_get_user():
+    response = requests.get('https://jsonplaceholder.typicode.com/users/1')
     assert response.status_code == 200
-    assert response.json()['ubicacion']['departamento']['nombre'] == 'Belén'
+    user_data = response.json()
+    assert user_data['id'] == 1
+    assert user_data['name'] == 'Leanne Graham'
+    assert user_data['email'] == 'Sincere@april.biz'
