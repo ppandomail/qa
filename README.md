@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-* Formar profesionales capaces de diseñar, implementar y mantener pipelines de testing automatizado, integrados en procesos de desarrollo ágil y DevOps. La automatización permite reducir costos, aumentar la cobertura de pruebas y mejorar la confiabilidad de los productos digitales
+* Formar profesionales capaces de diseñar, implementar y mantener pipelines de testing automatizado, integrados en procesos de desarrollo ágil y DevOps
 
 ## Programa
 
@@ -17,8 +17,16 @@
 | 03     | [Unit](doc/03-unit.ipynb)                   | [TP Unit](tps/03-unit.ipynb)             |
 | 04     | [API](doc/04-api.ipynb)                     | [TP API](tps/04-api.ipynb)               |
 | 05     | [UI](doc/05-ui.ipynb)                       | [TP UI](tps/05-ui.ipynb)                 |
-| 06     | [Data](doc/06-data.ipynb)                   |                                          |
-| 07     | [Reporting](doc/07-reporting.ipynb)         | [TP Reporting](tps/07-reporting.ipynb)   |
+| 06     | [Data](doc/06-data.ipynb)                   | [TP UI](tps/05-ui.ipynb)                 |
+| 07     | [Reporting](doc/07-reporting.ipynb)         | [TP UI](tps/05-ui.ipynb)                 |
+
+## Cierre
+
+* [Cierre](doc/08-cierre.ipynb)
+
+## TP Final
+
+* [TP Final](tps/tp-final.ipynb)  
 
 ## Bibliografía
 
